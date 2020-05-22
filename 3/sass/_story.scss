@@ -1,0 +1,13 @@
+.story {
+
+    &__pictures {
+        background-color: $color-primary;
+        grid-column: full-star /col-end 4;
+    }
+
+    &_content {
+        background-color: $color-grey-light-1;
+        grid-column: coll-star 5 / full-end;
+    }
+
+}
